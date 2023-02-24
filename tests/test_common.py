@@ -3,7 +3,8 @@
 Common tests that apply to multiple Attr-derived classes.
 """
 import copy
-from collections import namedtuple, Mapping, ItemsView, KeysView, ValuesView
+from collections import namedtuple
+from collections.abc import Mapping, ItemsView, KeysView, ValuesView
 from itertools import chain
 import pickle
 from sys import version_info
